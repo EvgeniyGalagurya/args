@@ -10,4 +10,3 @@ def avg(*etc: int | float) ->int | float:
         Mean value of arguments
     '''
     return sum(etc)/len(etc)
-print(avg(1, 3, 5))
